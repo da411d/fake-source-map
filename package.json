@@ -7,12 +7,13 @@
     "example": "example"
   },
   "scripts": {
-    "generate": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "example": "node src/index.js --mode=file --original=./example/source/code.js --fake=./example/source/fake.js --destination=./example/build"
   },
   "author": "da411d",
   "license": "ISC",
   "dependencies": {
+    "base-64": "^1.0.0",
+    "minimist": "^1.2.5",
     "source-map": "^0.7.3"
   }
 }
