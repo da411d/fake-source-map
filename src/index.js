@@ -78,4 +78,7 @@ if (require.main === module) {
   });
 } else {
   module.exports = doWork;
+  module.exports.generateFakeSourceMap = generateFakeSourceMap;
+  module.exports.generateFileComment = generateFileComment;
+  module.exports.generateInlineComment = generateInlineComment;
 }
