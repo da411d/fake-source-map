@@ -1,6 +1,8 @@
 # fake-source-map
 Генерує фейковий source-map. Тобто код один, а source-map інший.
 
+Демо: [example/build/test.html](https://da411d.github.io/fake-source-map/example/build/test.html)
+
 ![screenshot](./images/screenshot.png)
 
 ## Використання
